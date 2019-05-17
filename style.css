@@ -1,0 +1,307 @@
+
+.container {
+    border-radius : 50%; 
+    width: 700px; 
+    margin : 40px auto; 
+    background-color: rgba(0,0,0,0.1); 
+    border : 1px solid white; 
+    text-align : center;
+	padding-bottom : 5px ;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.7);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.contain :hover{
+    background-color : pink ; 
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+
+#me > img{
+  border: 1px solid white;
+border-radius : 50%; 
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+  height : 150px ;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+
+}
+
+
+#me > img:hover{
+transition: 0.70s;
+-webkit-transition: 0.70s;
+-moz-transition: 0.70s;
+-ms-transition: 0.70s;
+-o-transition: 0.70s;
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+#me > a{
+  text-decoration: none;
+  color : grey
+}
+
+
+#activities {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#activities:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background:url('./images/tanguy.jpeg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    color : white
+
+}
+
+#work {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#work:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background:url('./images/tanguy.jpeg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    color : white
+}
+
+#school {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#school:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background:url('./images/tanguy.jpeg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    color : white
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    margin: 0;
+    padding: 0; 
+	font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  background: black
+}
+
+
+.up{
+  background: linear-gradient(#e66465, #9198e5);
+
+}
+
+.down{
+  background: linear-gradient(#9198e5, #e66465);
+
+}
+#mail{
+  background-color : black; 
+  color : white; 
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  height : 30vh; 
+  padding-top: 50px;
+}
+
+
+#mail > div > div:nth-child(2) > li:nth-child(2) > a{
+  text-decoration: none; 
+  color : white; 
+}
+
+#mail > div > div:nth-child(2) > li:nth-child(3) > a{
+  text-decoration: none; 
+  color : white; 
+}
+
+.me{
+  float : left; 
+  width: 50%
+}
+
+#me {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+}
+#me:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    transform: rotate(1080deg);
+}
+
+
+
+
+/* responsive */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  nav {
+    display : none; 
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  footer{
+    display : none ; 
+  }
+  nav {
+    display : none; 
+  }
+}
+
+
+/* button */
+.button-link{
+ background: linear-gradient(#9198e5, #e66465);
+  padding : 15px 20px; 
+  color : yellow  ; 
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#me > button > a{
+  text-decoration: none; 
+  color : yellow 
+}
+
+/* bounce animation  */
+
+
+.stage {
+    border-bottom: 3px solid #444;
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#9198e5, #e66465);
+    /* border-radius: 50%;  */
+    height: 50px;
+    margin: 0 auto 0 auto;
+    transform-origin: left;
+    width: 50px;
+    text-align: center; 
+    color: white
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(+200px); }
+    50%  { transform: translateX(-200px); }
+    100% { transform: translateX(+200px);
+ }
+}
